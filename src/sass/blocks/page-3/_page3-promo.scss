@@ -1,0 +1,48 @@
+.page3-promo {
+    background: none;
+    padding: 95px 0 110px 0;
+    &__wrapper {
+        width: 1400px;
+        margin: 82px auto 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__item {
+        width: 279px;
+        &_circle {
+            width: 150px;
+            height: 150px;
+            background: #4FA2D6;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 63px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &_title {
+            margin-top: 22px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 24px;
+            text-align: center;
+            color: #000000;
+        }
+        &_descr {
+            margin-top: 12px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 24px;
+            color: #000000;
+            text-align: center;
+        }
+    }
+    
+}

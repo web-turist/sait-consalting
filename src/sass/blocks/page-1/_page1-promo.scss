@@ -1,0 +1,42 @@
+.page1-promo {
+    background: url('../img/bg_page1.jpg') center center/cover no-repeat;
+    padding: 95px 0 110px 0;
+    &__wrapper {
+        margin-top: 119px;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__item {
+        width: 390px;
+        &_title {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 24px;
+            color: #000000;
+        }
+        &_descr {
+            position: relative;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 24px;
+            color: #000000;
+            margin-top: 27px;
+            li {
+                list-style-type: none;
+                margin-bottom: 7px;
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    background: url('../img/icon_chek.png') center (center / cover) no-repeat;
+                    position: absolute;
+                    left: 0px;
+                    margin-top: 2px;
+                }
+            }
+        }
+    }
+}

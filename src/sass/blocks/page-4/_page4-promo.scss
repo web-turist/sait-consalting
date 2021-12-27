@@ -1,0 +1,40 @@
+.page4-promo {
+    &__wrapper {
+        width: 1350px;
+        display: grid;
+        grid-template: 580px / 450px 450px 410px;
+        gap: 10px;
+    }
+    &__item {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+        &_descr {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #000000;
+            &-color {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 24px;
+                text-decoration-line: underline;
+                text-transform: uppercase;
+                color: #F27676;
+            }
+            &-address {
+                margin-bottom: 18px;
+            }
+            &-phone {
+                margin-bottom: 18px;
+            }
+        }
+    }
+}
+// .page4-promo__item:last-child {
+//     width: 300px;
+// }

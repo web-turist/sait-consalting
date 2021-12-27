@@ -1,3 +1,18 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/subheader';
+@import 'blocks/promo';
+@import 'blocks/footer';
+@import 'blocks/form';
+@import 'blocks/titles';
+@import 'blocks/page-1/page1-promo';
+@import 'blocks/page-3/page3-promo';
+@import 'blocks/page-4/page4-promo';

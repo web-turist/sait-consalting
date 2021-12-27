@@ -1,0 +1,27 @@
+.header {
+    height: 53px;
+    background: #212121;
+    &__menu {
+        padding: 0;
+        width: 840px;
+        height: 53px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+    }
+    &__item {
+        a:hover {
+            color: #FFFFFF;
+        }
+    }
+    &__item-link {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 10px;
+        color: #FFFFFF;
+    }
+}
