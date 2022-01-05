@@ -1,6 +1,9 @@
 .header {
     height: 53px;
     background: #212121;
+    &__nav {
+        height: 53px;
+    }
     &__menu {
         padding: 0;
         width: 840px;
@@ -23,5 +26,8 @@
         font-size: 15px;
         line-height: 10px;
         color: #FFFFFF;
+    }
+    .hamburger {
+        display: none;
     }
 }
