@@ -46,6 +46,12 @@
 }
 
 @media (max-width: 576px) {
+    .header {
+        z-index: 2;
+    }
+    .subheader {
+        z-index: 2;
+    }
     .page1-promo {
         &__title {
             &-main {
